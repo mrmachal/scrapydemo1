@@ -9,3 +9,9 @@ import scrapy
 class BigeeItem(scrapy.Item):
     name = scrapy.Field()
     author = scrapy.Field()
+
+
+class JobItem(scrapy.Item):
+    job_title = scrapy.Field()
+    job_corporation = scrapy.Field()
+    job_salary = scrapy.Field()
