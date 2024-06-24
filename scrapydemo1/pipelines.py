@@ -22,3 +22,15 @@ class Scrapydemo1Pipeline:
 
     def __del__(self):
         self.file.close()
+
+
+class TxmoviesPipeline(object):
+    def process_item(self, item, spider):
+        print(item)
+        return item
+
+
+class BigeePipeline(object):
+    def process_item(self, item, spider):
+        print(item)
+        return item

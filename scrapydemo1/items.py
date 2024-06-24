@@ -12,3 +12,13 @@ class Scrapydemo1Item(scrapy.Item):
     city = scrapy.Field()
     salary = scrapy.Field()
     degree = scrapy.Field()
+
+
+class TxmoviesItem(scrapy.Item):
+    name = scrapy.Field()
+    description = scrapy.Field()
+
+
+class BigeeItem(scrapy.Item):
+    name = scrapy.Field()
+    author = scrapy.Field()
