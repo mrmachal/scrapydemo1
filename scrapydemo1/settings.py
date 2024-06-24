@@ -63,8 +63,7 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    "scrapydemo1.pipelines.Scrapydemo1Pipeline": 300,
-    "scrapydemo1.pipelines.TxmoviesPipeline": 300,
+    "scrapydemo1.pipelines.BigeePipeline": 300,
 
 }
 
